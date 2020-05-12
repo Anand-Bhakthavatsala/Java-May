@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="URL" value="https://www.google.com/"></parameter>	
+	<parameter name="fburl" value="https://www.facebook.com/"></parameter>	
+	<test name="Test">
+		<classes>
+			<class name="Guvi.ParameterDemo">
+			</class>
+		</classes>
+	</test>
+</suite> 

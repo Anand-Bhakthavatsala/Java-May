@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+    <groups>
+      <group name="regression">
+        <method signature="Grouping.Scooter1()[pri:0, instance:Guvi.Grouping@271053e1]" name="Scooter1" class="Guvi.Grouping"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Day2.goodbye()[pri:0, instance:Guvi.Day2@4f7d0008]" name="goodbye" class="Guvi.Day2"/>
+        <method signature="Grouping.Car1()[pri:0, instance:Guvi.Grouping@271053e1]" name="Car1" class="Guvi.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:Guvi.Grouping@271053e1]" name="Car2" class="Guvi.Grouping"/>
+        <method signature="Grouping.Scooter1()[pri:0, instance:Guvi.Grouping@271053e1]" name="Scooter1" class="Guvi.Grouping"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Regression" duration-ms="59" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+      <class name="Guvi.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:Guvi.Grouping@271053e1]" name="Car1" duration-ms="0" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:Guvi.Grouping@271053e1]" name="Car2" duration-ms="0" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:Guvi.Grouping@271053e1]" name="Scooter1" duration-ms="2" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+      </class> <!-- Guvi.Grouping -->
+      <class name="Guvi.Day2">
+        <test-method status="PASS" signature="goodbye()[pri:0, instance:Guvi.Day2@4f7d0008]" name="goodbye" duration-ms="5" started-at="2020-04-24T22:58:00 IST" finished-at="2020-04-24T22:58:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goodbye -->
+      </class> <!-- Guvi.Day2 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
